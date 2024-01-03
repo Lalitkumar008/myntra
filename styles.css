@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgba(233, 231, 227, 0.319);
+}
+/* styling logo */
+#logo-img{
+    width: 4%;
+    height: 4%;
+    margin: 15px 0 0 0px;
+    
+}
+#header .left-list {
+    margin: 0 0px 0  -120px;
+}
+#header ul li{
+    display: inline;
+    margin:15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:700;
+    font-size: 13px;
+    /* margin-top: -100px; */
+}
+#header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+#header ul li a:hover{
+    color: rgb(195, 100, 202);
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color:#fff ;
+    padding: 10px;
+    /* position: fixed;     */
+}
+.right-list ul {
+    /* margin-right: -110px; */
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+/* home page img */
+.home-img{
+    text-align: center;
+}
+.home-img img{
+    width: 90vw;
+    cursor: pointer;
+}
+/* section 3 cloth category */
+.cloth-category img{
+width: 154px;
+/* height: 100px; */
+}
+
+@media screen and (max-width: 480px) {
+    #header {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+}
+
+/* footer */
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+#footer h6{
+    margin-left: 40px;
+    font-size: 0.67rem;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#footer div{
+margin-right: 20px;
+}
+#footer li{
+    list-style: none;
+    text-transform:capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.desktop-pSearchlinks>a{
+    text-decoration: none;
+    color: grey;
+}
+.desktop-pSearchlinks>a:after{
+    content: '|';
+    margin: 0 4px;
+}
